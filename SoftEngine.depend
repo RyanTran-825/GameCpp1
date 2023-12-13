@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1701931057 source:d:\cpp\codeblock\softengine\main.cpp
+	"Engine.h"
+
+1701947009 d:\cpp\codeblock\softengine\src\core\engine.h
+	"SDL.h"
+	"SDL_image.h"
+
+1702314936 source:d:\cpp\codeblock\softengine\src\core\engine.cpp
+	"Engine.h"
+	"TextureManager.h"
+	"Transform.h"
+
+1702354463 d:\cpp\codeblock\softengine\src\graphics\texturemanager.h
+	<string>
+	"SDL.h"
+	<map>
+
+1702437058 source:d:\cpp\codeblock\softengine\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+
+1702314936 d:\cpp\codeblock\softengine\src\physics\vector.h
+	<iostream>
+
+1702440594 d:\cpp\codeblock\softengine\src\physics\transform.h
+	"Vector.h"
+
+1702438800 source:d:\cpp\codeblock\softengine\src\characters\warrior.cpp
+	"Warrior.h"
+	"TextureManager.h"
+	"SDL.h"
+
+1702438713 d:\cpp\codeblock\softengine\src\characters\warrior.h
+	"Character.h"
+
+1702437955 d:\cpp\codeblock\softengine\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1702439326 d:\cpp\codeblock\softengine\src\object\gameobject.h
+	"Object.h"
+	"Transform.h"
+	"SDL.h"
+
+1702439337 d:\cpp\codeblock\softengine\src\object\object.h
+
